@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Course Enrollment Form</title>
+</head>
+<body style="background-color: rgb(217, 108, 208);">
+    <form>
+        <img src="images/1669646524255_logo_white.png" alt="logo"> <br>
+        <h1>Course Enrollment Form</h1>
+        <label for="fname"><b> Enter Your First Name:</b></label>
+        <input type="text" id="fname" name="fname"><br> <br>
+        <label for="lname"><b>Enter Your Last Name:</b> </label>
+        <input type="text" id="lname" name="lname"><br> <br>
+        <label for="username"><b>Enter Your Username:</b> </label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="birthdate"><b> Enter Your Birthdate:</b></label>
+        <input type="text" id="birthdate" name="birthdate"><br><br>
+
+        <label for="gender"><h4><b>Gender:</b> </h4></label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="hobbies"><b>Hobbies:</b> </label><br><br>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label> <br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="dance" name="hobbies" value="dance">
+        <label for="dance">Dance</label> <br> <br>
+        
+        <label for="photo"><b>Upload Profile Picture:</b></label><br><br>
+        <input type="file" id="photo" name="photo"><br><br>
+        <input type="submit" value="Upload"> <br><br>
+
+        <label for="address"><b>Address:</b></label><br><br>
+        <label for="street1"><b>Address Line 1</b></label>
+        <textarea name="street1" id="street1" cols="50" rows="2"></textarea> <br><br>
+
+
+        <label for="street2"><b>Address Line 2</b></label>
+        <textarea name="street2" id="street2" cols="50" rows="2"></textarea> <br><br>
+
+        <label for="dropdownCountry"><b>Select Your Country:</b></label>
+        <select name="dropdownCountry" id="dropdownCountry">
+        <option value="0">Select Your Country</option>
+        <option value="1">India</option>
+        <option value="2">United States of America</option>
+        <option value="3">Japan</option>
+        <option value="4">China</option>
+        <option value="5">France</option>
+        <option value="6">Russia</option> </select> <br><br>
+
+        <label for="dropdownState"><b>Select Your State:</b></label>
+        <select name="dropdownState" id="dropdownState">
+        <option value="0">Select Your State</option>
+        <option value="1">Delhi</option>
+        <option value="2">Maharashtra</option>
+        <option value="3">Gujarat</option>
+        <option value="4">Goa</option>
+        <option value="5">Kerala</option>
+        <option value="6">Tamil Nadu</option> </select> <br><br>
+
+        <label for="dropdownCity"><b>Select Your City:</b></label>
+        <select name="dropdownCity" id="dropdownCity">
+        <option value="0">Select Your City</option>
+        <option value="1">Mumbai</option>
+        <option value="2">Nashik</option>
+        <option value="3">Nagpur</option>
+        <option value="4">Jalgaon</option>
+        <option value="5">Pune</option>
+        <option value="6">Kalyan</option> </select><br><br>
+
+        <h3>Welcome To LetsUpgrade</h3>
+        <img src="images/1669646524255_logo_white.png" alt="logo"> <br><br>
+
+        <label for="courses"><b>Courses Available:</b></label>
+        <select name="dropdownCourses" id="dropdownCourses">
+        <option value="0">Select Your Courses</option>
+        <option value="1">Full Stack Web Development</option>
+        <option value="2">Full Stack Data Science</option></select><br><br>
+
+        <label for="profession"><b>Currently Student/Working Professional:</b></label>
+        <input type="text" id="profession" name="profession"><br> <br>
+
+        <label for="link"><b>Your LinkedIn Profile Link:</b></label><br><br>
+        <input type="text" id="link" name="link" size="65"><br> 
+
+        <h4>Why do you want to learn those Courses?</h4> 
+        <textarea name="feedback" id="feedback" cols="50" rows="5"></textarea> <br><br>
+
+        <button type="submit" form="form1" value="Submit">Submit</button>
+    </form>
+</body>
+</html>
